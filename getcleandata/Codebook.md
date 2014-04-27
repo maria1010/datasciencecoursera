@@ -3,7 +3,7 @@ Codebook for run_analysis.R
 
 The following describes the steps performed by the run_analysis.R script.
 
-(Note: after downloading and extracting the zip file containing the dataset)
+(Note: The zip file mentioned in README.md file must have been dowloaded and extracted on the same directory as the run_analysis.R script)
 
 1) Read in the training and test data sets. Then, merge them as follows: measured values into variable X, labels into variable Y, and subjects into variable S. This is using read.table for reading a text file into a table; and rbind which means merge the data sets in rows. 
 
